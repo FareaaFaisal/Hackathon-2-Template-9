@@ -16,7 +16,7 @@ export default function About() {
           <div className="flex items-center space-x-2 text-white">
             <Link href="/" className="text-white">Home</Link>
             <span className="text-white"> &gt; </span>
-            <link href="/about" className="text-orange-500">About</link>
+            <Link href="/about" className="text-orange-500">About</Link>
           </div>
         </div>
       </div>
