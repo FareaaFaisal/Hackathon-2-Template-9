@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { FcGoogle } from "react-icons/fc";
-import { FaApple } from "react-icons/fa";
+// import { FcGoogle } from "react-icons/fc";
+// import { FaApple } from "react-icons/fa";
 
 export default function Signup(){
     return(
@@ -89,11 +89,13 @@ export default function Signup(){
             <div className="text-center mt-8">
               <p className="text-slate-800 text-xl">OR</p>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center gap-2">
-              <FcGoogle size={24}/>
+              {/* <FcGoogle size={24}/> */}
+              <img src="Google.png"/>
               <p>Sign up with Google</p>
               </button>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center gap-3">
-                <FaApple size={24}/>
+                {/* <FaApple size={24}/> */}
+                <img src="Apple.png"/>
                 <p>Sign up with Apple</p>
               </button>
             </div>
