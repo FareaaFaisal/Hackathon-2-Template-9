@@ -18,9 +18,9 @@ export default function DeatilsPage() {
           Blog Details
         </h2>
         <div className="flex items-center space-x-2 text-white">
-          <a href="/" className="text-white">Home</a>
+          <Link href="/" className="text-white">Home</Link>
           <span className="text-white"> &gt; </span>
-          <a href="/menu" className="text-orange-500">Blog Details</a>
+          <Link href="/menu" className="text-orange-500">Blog Details</Link>
         </div>
       </div>
     </div>

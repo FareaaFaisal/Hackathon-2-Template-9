@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
       <h1 className="logo mb-4 text-3xl lg:text-5xl font-bold">
         <span className="text-[#FF9F0D]">St</span>ill You Need Our Support?
       </h1>
-      <p>Don't wait, make a smart & logical quote here. It's pretty easy.</p>
+      <p>Don&apos;t wait, make a smart & logical quote here. It&apos;s pretty easy.</p>
     </div>
     <div className="flex flex-col sm:flex-row items-center gap-4 lg:gap-0 lg:rounded-none">
       <input type="text" placeholder="Enter Your Email" className="bg-[#FF9F0D] h-[56px] w-full sm:w-auto text-white p-4 rounded-md" />
