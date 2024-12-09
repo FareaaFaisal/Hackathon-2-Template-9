@@ -325,9 +325,9 @@ export default function DeatilsPage() {
             <div className='mt-10 border-[1px] border-[] w-[422px] h-[158px] items-center'>
                 <div className='w-[308px] mt-[25px] ml-10 h-[94px] items-center cursor-pointer'>
                   <h1 className='text-2xl font-bold'>Follow us</h1>
-                  <a href="https://www.facebook.com/">
+                  <Link href="https://www.facebook.com/">
                   <img src="Sociali icon.png" alt="social icons" className="w-[80px] lg:h-[90px] lg:w-[300px]" />
-                  </a> 
+                  </Link> 
                   
                 </div>
             </div>
