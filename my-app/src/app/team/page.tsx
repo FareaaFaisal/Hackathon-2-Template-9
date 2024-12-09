@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -14,9 +15,9 @@ export default function About() {
               Our Chef
             </h2>
             <div className="flex items-center space-x-2 text-white">
-              <a href="/" className="text-white">Home</a>
+              <Link href="/" className="text-white">Home</Link>
               <span className="text-white"> &gt; </span>
-              <a href="/about" className="text-orange-500">Chef</a>
+              <Link href="/about" className="text-orange-500">Chef</Link>
             </div>
           </div>
         </div>
