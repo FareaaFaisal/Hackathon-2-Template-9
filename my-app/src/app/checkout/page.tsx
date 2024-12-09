@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Checkout() {
   return (
@@ -15,9 +16,9 @@ export default function Checkout() {
           Checkout Page
         </h2>
         <div className="flex items-center space-x-2 text-white">
-          <a href="/" className="text-white">Home</a>
+          <Link href="/" className="text-white">Home</Link>
           <span className="text-white"> &gt; </span>
-          <a href="/menu" className="text-orange-500">Checkout</a>
+          <Link href="/menu" className="text-orange-500">Checkout</Link>
           </div>
         </div>
       </div>

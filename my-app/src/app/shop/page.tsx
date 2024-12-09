@@ -14,9 +14,9 @@ export default function Shop() {
         <div className="min-h-[350px] relative z-50 h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-center p-6">
           <h2 className="text-white md:text-5xl text-3xl font-bold mb-8">Our Shop</h2>
           <div className="flex items-center space-x-2 text-white">
-            <a href="/" className="text-white">Home</a>
+            <Link href="/" className="text-white">Home</Link>
             <span className="text-white"> &gt; </span>
-            <a href="/menu" className="text-orange-500">Shop</a>
+            <Link href="/menu" className="text-orange-500">Shop</Link>
           </div>
         </div>
       </div>

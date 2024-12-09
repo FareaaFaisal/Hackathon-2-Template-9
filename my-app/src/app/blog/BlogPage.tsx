@@ -18,9 +18,9 @@ export default function BlogPage() {
                             Blog List
                         </h2>
                         <div className="flex items-center space-x-2 text-white">
-                            <a href="/" className="text-white">Home</a>
+                            <Link href="/" className="text-white">Home</Link>
                             <span className="text-white"> &gt; </span>
-                            <a href="/menu" className="text-orange-500">blog</a>
+                            <Link href="/menu" className="text-orange-500">blog</Link>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const faqData = [
   {
@@ -49,9 +50,9 @@ const FAQPage: React.FC = () => {
           FAQ Page
         </h2>
         <div className="flex items-center space-x-2 text-white">
-          <a href="/" className="text-white">Home</a>
+          <Link href="/" className="text-white">Home</Link>
           <span className="text-white"> &gt; </span>
-          <a href="/menu" className="text-orange-500">faq</a>
+          <Link href="/menu" className="text-orange-500">faq</Link>
         </div>
       </div>
     </div>

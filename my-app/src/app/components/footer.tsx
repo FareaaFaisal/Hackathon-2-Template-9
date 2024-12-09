@@ -46,12 +46,12 @@ export default function Footer() {
       <div>
         <h3 className="text-xl lg:text-2xl font-bold mb-4 lg:mb-10">Useful Links</h3>
         <ul className="text-sm lg:text-base space-y-3">
-          <li><a href="/About" className="hover:text-[#FF9F0D]">About</a></li>
-          <li><a href="#" className="hover:text-[#FF9F0D]">News</a></li>
-          <li><a href="#" className="hover:text-[#FF9F0D]">Partner</a></li>
-          <li><a href="/team" className="hover:text-[#FF9F0D]">Team</a></li>
-          <li><a href="/menu" className="hover:text-[#FF9F0D]">Menu</a></li>
-          <li><a href="#" className="hover:text-[#FF9F0D]">Contacts</a></li>
+          <li><Link href="/About" className="hover:text-[#FF9F0D]">About</Link></li>
+          <li><Link href="#" className="hover:text-[#FF9F0D]">News</Link></li>
+          <li><Link href="#" className="hover:text-[#FF9F0D]">Partner</Link></li>
+          <li><Link href="/team" className="hover:text-[#FF9F0D]">Team</Link></li>
+          <li><Link href="/menu" className="hover:text-[#FF9F0D]">Menu</Link></li>
+          <li><Link href="#" className="hover:text-[#FF9F0D]">Contacts</Link></li>
         </ul>
       </div>
 
@@ -59,12 +59,12 @@ export default function Footer() {
       <div>
         <h3 className="text-xl lg:text-2xl font-bold mb-4 lg:mb-10">Help?</h3>
         <ul className="text-sm lg:text-base space-y-3">
-          <li><a href="/FAQ" className="hover:text-[#FF9F0D]">FAQ</a></li>
-          <li><a href="/error" className="hover:text-[#FF9F0D]">Terms and Conditions</a></li>
-          <li><a href="/error" className="hover:text-[#FF9F0D]">Reporting</a></li>
-          <li><a href="/error" className="hover:text-[#FF9F0D]">Documentation</a></li>
-          <li><a href="/error" className="hover:text-[#FF9F0D]">Support Policy</a></li>
-          <li><a href="/error" className="hover:text-[#FF9F0D]">Privacy</a></li>
+          <li><Link href="/FAQ" className="hover:text-[#FF9F0D]">FAQ</Link></li>
+          <li><Link href="/error" className="hover:text-[#FF9F0D]">Terms and Conditions</Link></li>
+          <li><Link href="/error" className="hover:text-[#FF9F0D]">Reporting</Link></li>
+          <li><Link href="/error" className="hover:text-[#FF9F0D]">Documentation</Link></li>
+          <li><Link href="/error" className="hover:text-[#FF9F0D]">Support Policy</Link></li>
+          <li><Link href="/error" className="hover:text-[#FF9F0D]">Privacy</Link></li>
         </ul>
       </div>
 
@@ -101,7 +101,7 @@ export default function Footer() {
   {/* <!-- Footer Bottom --> */}
   <div className="bg-[#4F4F4F] w-full mt-10 lg:pl-24 lg:pr-24 lg:mt-20 py-4 flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:gap-4">
     <p className="text-sm lg:text-base text-center">Copyright &copy; 2023 by Ayed, All Rights Reserved</p>
-   <Link href="https://www.facebook.com/"><img src="Sociali icon.png" alt="social icons" className="w-[80px] lg:w-[200px]" /></Link> 
+   <Link href="https://www.facebook.com/"><img src="Sociali icon.png" alt="social icons" className="w-[80px] lg:w-[200px]" /></Link>
   </div>
 </div>
 

@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 export default function About() {
   return (
     <div className="w-full overflow-hidden">
@@ -14,9 +14,9 @@ export default function About() {
             About Us
           </h2>
           <div className="flex items-center space-x-2 text-white">
-            <a href="/" className="text-white">Home</a>
+            <Link href="/" className="text-white">Home</Link>
             <span className="text-white"> &gt; </span>
-            <a href="/about" className="text-orange-500">About</a>
+            <link href="/about" className="text-orange-500">About</link>
           </div>
         </div>
       </div>
