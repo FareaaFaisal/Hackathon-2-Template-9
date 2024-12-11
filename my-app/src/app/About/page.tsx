@@ -1,10 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="w-full overflow-hidden">
       {/* First Section- Image and Breadcrumb */}
       <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-        <img
+        <Image
           src="unsplash_4ycv3Ky1ZZU.png"
           alt="Banner Image"
           className="absolute inset-0 w-full h-full object-cover"
@@ -24,7 +26,7 @@ export default function About() {
       <section className="text-white body-font">
         <div className="container mx-auto flex px-5 py-24">
           <div className="flex flex-col md:flex-row items-center md:space-x-4 mt-2 ml-2">
-            <img
+            <Image
              src="lemon.svg"
               className="object-cover object-center w-336px h-536px mt-530px ml-300px radius-6px"
               alt="hero"
@@ -33,13 +35,13 @@ export default function About() {
           </div>
           {/* Right Images */}
           <div className="flex flex-col space-y-2 space-x-2 mt-2">
-            <img
+            <Image
               src="yogurt.svg"
               className=" object-center w-309px h-271px mt-584px ml-660px radius-6px"
               alt="image2"
             />
             {/* Bottom Image */}
-            <img
+            <Image
               className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
               alt="image3"
               src="pasta.svg"
@@ -66,7 +68,7 @@ export default function About() {
               </button>
               <button className="ml-4 inline-flex text-white border-0 py-2 px-3 focus:outline-none rounded text-lg">
                 {/* <IoPlayOutline className="mr-2 text-white" /> Icon on the left */}
-                <img src="Component 1.png" className="mr-2 text-black"/>
+                <Image src="Component 1.png" alt="component 1" className="mr-2 text-black"/>
                 Watch video
               </button>
             </div>
@@ -80,7 +82,7 @@ export default function About() {
             <h1 className="text-5xl text-black text-bold mt-3 mb-4"><b>Why Choose Us</b></h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam <br />
               pellentesque bibendum non dui volutpat fringilla bibendum.
-          <img
+          <Image
             className="mb-10 object-cover object-center w-1320px h-386px mt-1552px ml-300px mt-10"
             alt="hero"
             src = "/s3-im2.svg"
@@ -93,7 +95,7 @@ export default function About() {
     <div className="flex flex-wrap mt-[-80px] ml-20">
       <div className="p-4 md:w-1/3 w-[1320px]">
         <div className="h-full border-2 rounded-lg overflow-hidden w-[375px]">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full  object-center justify-center"
             src="/Student.svg"
             width={80}
@@ -111,7 +113,7 @@ export default function About() {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 rounded-lg overflow-hidden w-[380px]">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full  justify-center"
             width={80}
             height={60}
@@ -129,7 +131,7 @@ export default function About() {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 rounded-lg overflow-hidden w-[375px]">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-center justify-center"
             width={80}
             height={60}
@@ -152,20 +154,21 @@ export default function About() {
      <div className="w-full lg:h-[920px] bg-white bg-opacity-97 p-4">
   {/* Header Section */}
   <div className="relative flex flex-col lg:ml-40 lg:w-[770px] text-center lg:text-left">
-  <img src="/Group 1000002250.svg" className="lg:ml-[-320px]  h-10"/>
+  <Image src="/Group 1000002250.svg" alt="logo" className="lg:ml-[-320px]  h-10"/>
     <h1 className="logo mb-4 text-3xl lg:text-5xl mt-4 text-black font-bold">
       What our client are saying
     </h1>
   </div>
 
   {/* Review Div */}
-  <div className="w-full mt-20 lg:w-[868px] md:w-[500px] lg:h-[461px] bg-white flex flex-col items-center justify-center mt-16 lg:mt-36 mx-auto shadow-lg shadow-gray-500/40 p-6 lg:p-10">
+  <div className="w-full mt-20 lg:w-[868px] md:w-[500px] lg:h-[461px] bg-white flex flex-col items-center justify-center  lg:mt-36 mx-auto shadow-lg shadow-gray-500/40 p-6 lg:p-10">
     {/* Client Image */}
-    <img
+    <Image
       src="Ellipse 6.svg"
+      alt="client"
       className="w-28 h-28 lg:w-auto lg:h-auto rounded-full mt-[-80px] lg:mt-[-120px] mb-8"
     />
-    <img src="Quotes.svg" className="w-8 lg:w-auto" />
+    <Image src="Quotes.svg" alt="quotes" className="w-8 lg:w-auto" />
     {/* Review Text */}
     <p className="text-sm lg:text-base text-center mt-8 mb-10 px-2 lg:px-10 leading-6">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias
@@ -175,7 +178,7 @@ export default function About() {
       enim sequi nostrum.
     </p>
     {/* Rating */}
-    <img src="star.svg" className="w-32 lg:w-auto" />
+    <Image src="star.svg" alt="rating" className="w-32 lg:w-auto" />
     {/* Client Name */}
     <p className="mt-6 mb-2 font-arial text-xl lg:text-3xl font-bold text-center">
       Alamin Hassan

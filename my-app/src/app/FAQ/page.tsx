@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const faqData = [
   {
@@ -40,7 +41,7 @@ const FAQPage: React.FC = () => {
     <div className="w-full overflow-hidden">
     {/* First Section: Image and Breadcrumb */}
     <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-      <img
+      <Image
         src="unsplash_4ycv3Ky1ZZU.png"
         alt="Banner Image"
         className="absolute inset-0 w-full h-full object-cover"

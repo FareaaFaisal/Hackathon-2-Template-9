@@ -6,7 +6,7 @@ export default function Checkout() {
     <div className="w-full overflow-hidden">
     {/* Navbar */}
     <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-      <img
+      <Image
         src="unsplash_4ycv3Ky1ZZU.png"
         alt="Banner Image"
         className="absolute inset-0 w-full h-full object-cover"

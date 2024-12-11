@@ -8,7 +8,7 @@ export default function DeatilsPage() {
         <div className="min-w-full overflow-hidden">
     {/* Header section */}
     <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-      <img
+      <Image
         src="unsplash_4ycv3Ky1ZZU.png"
         alt="Banner Image"
         className="absolute inset-0 w-full h-full object-cover"
@@ -326,7 +326,7 @@ export default function DeatilsPage() {
                 <div className='w-[308px] mt-[25px] ml-10 h-[94px] items-center cursor-pointer'>
                   <h1 className='text-2xl font-bold'>Follow us</h1>
                   <Link href="https://www.facebook.com/">
-                  <img src="Sociali icon.png" alt="social icons" className="w-[80px] lg:h-[90px] lg:w-[300px]" />
+                  <Image src="Sociali icon.png" alt="social icons" className="w-[80px] lg:h-[90px] lg:w-[300px]" />
                   </Link> 
                   
                 </div>

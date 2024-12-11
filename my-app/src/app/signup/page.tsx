@@ -1,13 +1,12 @@
 import Link from "next/link";
-// import { FcGoogle } from "react-icons/fc";
-// import { FaApple } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Signup(){
     return(
         <div className="w-full overflow-hidden">
         {/* Nav bar*/}
         <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-          <img
+          <Image
             src="unsplash_4ycv3Ky1ZZU.png"
             alt="Banner Image"
             className="absolute inset-0 w-full h-full object-cover"
@@ -33,7 +32,7 @@ export default function Signup(){
 
 
 <div className="relative w-full max-w-md mb-3">             {/* Name Input */}
-  <img 
+  <Image 
     src="User.png" 
     alt="User Icon" 
     className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 pointer-events-none" 
@@ -47,7 +46,7 @@ export default function Signup(){
 
              
 <div className="relative w-full max-w-md mb-3">             {/* Email Input */}
-  <img 
+  <Image
     src="EnvelopeSimple.png" 
     alt="Email Icon" 
     className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 pointer-events-none" 
@@ -61,7 +60,7 @@ export default function Signup(){
 
 
 <div className="relative w-full max-w-md mb-3">             {/* password Input */}
-  <img 
+  <Image
     src="Lock.png" 
     alt="Lock Icon" 
     className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 pointer-events-none" 
@@ -90,12 +89,12 @@ export default function Signup(){
               <p className="text-slate-800 text-xl">OR</p>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center gap-2">
               {/* <FcGoogle size={24}/> */}
-              <img src="Google.png"/>
+              <Image src="Google.png" alt="google icon"/>
               <p>Sign up with Google</p>
               </button>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center gap-3">
                 {/* <FaApple size={24}/> */}
-                <img src="Apple.png"/>
+                <Image src="Apple.png" alt="apple icon"/>
                 <p>Sign up with Apple</p>
               </button>
             </div>

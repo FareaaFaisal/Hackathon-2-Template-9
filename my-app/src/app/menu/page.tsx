@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Menu() {
     return(
@@ -6,7 +7,7 @@ export default function Menu() {
         <div className="w-full overflow-hidden">
         {/* First Section: Image and Breadcrumb */}
         <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-          <img
+          <Image
             src="unsplash_4ycv3Ky1ZZU.png"
             alt="Banner Image"
             className="absolute inset-0 w-full h-full object-cover"
@@ -26,13 +27,14 @@ export default function Menu() {
          {/* part 1 */}
       <div className="flex flex-col lg:flex-row md:flex-row gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 px-4 lg:px-0">
         <div>
-          <img
+          <Image
             src="/menu1.svg"
+            alt="heading"
             className="w-full lg:w-[448px] lg:h-[628px]"
           />
         </div>
         <div className="flex flex-col lg:gap-2 gap-4 md:gap-1">
-          <img src="/Coffee (1).svg" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+          <Image src="/Coffee (1).svg" alt="coffee pic" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
           <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
             <b>Starter Menu</b>
           </h1>
@@ -65,7 +67,7 @@ export default function Menu() {
         {/* part 2*/}
       <div className="flex flex-col-reverse lg:flex-row md:flex-row gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 mb-12 lg:mb-36 px-4 lg:px-0">       
   <div className="flex flex-col lg:gap-2 gap-4 md:gap-1">
-    <img src="/Coffee (1).svg" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" alt="coffee pic" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Main Course</b>
     </h1>
@@ -103,8 +105,9 @@ export default function Menu() {
   </div>
 
   <div>
-    <img
+    <Image
       src="/menu2.png"
+      alt="menu 2"
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
@@ -112,19 +115,20 @@ export default function Menu() {
 
 
 
-        <div className="w-full h-[40%] mb-36"><img src="/Client & customers.svg"/></div>
+        <div className="w-full h-[40%] mb-36"><Image src="/Client & customers.svg" alt="-"/></div>
 
         {/* part 3*/}
         <div className="flex flex-col lg:flex-row md:flex-row  gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 px-4 lg:px-0">
   <div className="order-2 lg:order-1">
-    <img
+    <Image
       src="/Desert1.svg"
+      alt="desert 1"
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
 
   <div className="flex flex-col lg:gap-2 md:gap-1 gap-4 order-1 lg:order-2">
-    <img src="/Coffee (1).svg" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" alt="coffeec"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Desert</b>
     </h1>
@@ -165,7 +169,7 @@ export default function Menu() {
         {/* part 4 */}
   <div className="flex flex-col-reverse lg:flex-row md:flex-row gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 mb-12 lg:mb-36 px-4 lg:px-0">       
   <div className="flex flex-col lg:gap-2  md:gap-1 gap-4">
-    <img src="/Coffee (1).svg" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" alt="Drinks" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Drinks</b>
     </h1>
@@ -203,14 +207,15 @@ export default function Menu() {
   </div>
 
   <div>
-    <img
+    <Image
       src="/desert2.png"
+      alt="desert 2"
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
 </div>
 
-        <div className="lg:mt-36 mt-5 lg:mb-36 mb-5 w-full h-[275px] flex justify-center"><img src="/Clients and partner.svg"/></div>
+        <div className="lg:mt-36 mt-5 lg:mb-36 mb-5 w-full h-[275px] flex justify-center"><Image src="/Clients and partner.svg" alt="clients and partners"/></div>
         </div>
         </>
     )

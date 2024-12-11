@@ -8,7 +8,7 @@ export default function BlogPage() {
             <div className="min-w-full overflow-hidden">
                 {/* Header */}
                 <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-                    <img
+                    <Image
                         src="unsplash_4ycv3Ky1ZZU.png"
                         alt="Banner Image"
                         className="absolute inset-0 w-full h-full object-cover"
@@ -304,7 +304,7 @@ export default function BlogPage() {
                          {/* icons Tag */}
                         <div className="bg-[#4F4F4F] w-full mt-10 lg:pl-24 lg:pr-24 lg:mt-20 py-4 flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:gap-4">
                          <Link href="https://www.facebook.com/">
-                         <img src="Sociali icon.png" alt="social icons" className="w-[80px] lg:w-[200px]" />
+                         <Image src="Sociali icon.png" alt="social icons" className="w-[80px] lg:w-[200px]" />
                          </Link> 
                         </div>
                     </div>

@@ -6,7 +6,7 @@ export default function Shop() {
     <div className="w-full overflow-x-hidden">
       {/* Nav bar */}
       <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
-        <img
+        <Image
           src="unsplash_4ycv3Ky1ZZU.png"
           alt="Banner Image"
           className="absolute inset-0 w-full h-full object-cover"
@@ -56,7 +56,7 @@ export default function Shop() {
               { img: "Mask Group (7).png", title: "Chicken Chup", price: "$38.00", oldPrice: "$45.00" },
             ].map((product, index) => (
               <div key={index} className="flex flex-col items-center">
-                <img src={product.img} alt={product.title} className="w-full h-auto object-cover" />
+                <Image src={product.img} alt={product.title} className="w-full h-auto object-cover" />
                 <p className="text-2xl text-[#333333] font-bold">{product.title}</p>
                 <p className="text-[#FF9F0D]">
                   {product.price} <span><del>{product.oldPrice}</del></span>

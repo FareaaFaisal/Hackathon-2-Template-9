@@ -32,15 +32,15 @@ export default function Home() {
             <div className="flex flex-col gap-4 items-center mt-[-40px] mr-10">
             <hr className="w-[2px] h-36 bg-white"></hr>
             <div className="flex flex-col gap-10">
-              <img src="/icon-1.svg" width="25px" height="25px"/>
-              <img src="/icon-2.svg" width="25px" height="25px"/>
-              <img src="/icon-3.svg" width="25px" height="25px"/>
+              <Image src="/icon-1.svg" alt="icon1" width={25} height={25}/>
+              <Image src="/icon-2.svg" alt="icon2" width={25} height={25}/>
+              <Image src="/icon-3.svg" alt="icon3" width={25} height={25}/>
             </div>
             <hr className="w-[2px] h-36 bg-white"></hr>
             </div>
               <div className="w-[472px] h-[356px] text-white flex-col">
                 {/* div-1 content */}
-               <img src="/Its Quick & Amusing!.svg" className="h-10"/>
+               <Image src="/Its Quick & Amusing!.svg" alt="heading" className="h-10"/>
                
                <h1 className="logo mb-4 lg:text-6xl ml-6 text-xl mt-6  text-white font-bold"><span className="text-[#FF9F0D]">Th</span>e Art of Speed food Quality</h1>
               <p className="mt-16 w-[218px] lg:flex-nowrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -73,7 +73,7 @@ export default function Home() {
     <div className="w-full md:w-[600px] lg:w-[40%] mb-8 md:mb-0">
       {/* Section 2 content */}
       <div className="text-white">
-        <img src="/abth.svg" className="h-10" alt="About Icon" />
+        <Image src="/abth.svg" className="h-10" alt="About Icon" />
 
         <h1 className="logo mb-4 text-3xl md:text-5xl mt-4 font-bold">
           <span className="text-[#FF9F0D]">We</span> create the best foody product
@@ -84,15 +84,15 @@ export default function Home() {
         </p>
 
         <div className="mt-6 flex gap-4 items-start">
-          <img src="/check.svg" className="mt-1 w-5 h-5" alt="Check Icon" />
+          <Image src="/check.svg" className="mt-1 w-5 h-5" alt="Check Icon" />
           <p className="text-sm md:text-lg">Lacus nisi, et ac dapibus sit eu velit consequat.</p>
         </div>
         <div className="mt-4 flex gap-4 items-start">
-          <img src="/check.svg" className="mt-1 w-5 h-5" alt="Check Icon" />
+          <Image src="/check.svg" className="mt-1 w-5 h-5" alt="Check Icon" />
           <p className="text-sm md:text-lg">Quisque diam pellentesque bibendum non dui volutpat fringilla.</p>
         </div>
         <div className="mt-4 flex gap-4 items-start">
-          <img src="/check.svg" className="mt-1 w-5 h-5" alt="Check Icon" />
+          <Image src="/check.svg" className="mt-1 w-5 h-5" alt="Check Icon" />
           <p className="text-sm md:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
@@ -108,19 +108,19 @@ export default function Home() {
     {/* Section 2 images */}
     <div className="flex flex-col lg:w-[660px] gap-4 w-full md:w-[562px]">
       <div>
-        <img
+        <Image
           src="/sec-2(img3).svg"
           alt="Main Section Image"
           className="w-full h-auto max-w-[660px] mx-auto"
         />
       </div>
       <div className="flex flex-wrap flex-row md:flex-nowrap gap-4 justify-center md:justify-start">
-        <img
+        <Image
           src="/sec-2(img1).svg"
           alt="Image 1"
           className="w-[48%] md:w-[322px] h-auto"
         />
-        <img
+        <Image
           src="/sec-2(img2).svg"
           alt="Image 2"
           className="w-[48%] md:w-[322px] h-auto"
@@ -144,17 +144,17 @@ export default function Home() {
     ></div>
 
     {/* Header content */}
-    <img src="/Food Category.svg" className="h-10" alt="Food Category" />
+    <Image src="/Food Category.svg" className="h-10" alt="Food Category" />
     <h1 className="logo mb-4 text-4xl md:text-5xl lg:text-5xl mt-4 text-white font-bold">
       <span className="text-[#FF9F0D]">Ch</span>oose Food Item
     </h1>
 
     {/* Food items */}
     <div className="flex flex-wrap justify-center gap-4 md:gap-6 mt-10 lg:mt-20">
-      <img src="/sec-3-img1.png" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
-      <img src="/sec-3-img2.svg" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
-      <img src="/sec-3-img3.svg" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
-      <img src="/sec-4-img4.svg" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
+      <Image src="/sec-3-img1.png" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
+      <Image src="/sec-3-img2.svg" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
+      <Image src="/sec-3-img3.svg" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
+      <Image src="/sec-4-img4.svg" alt="food-pic" className="w-1/2 sm:w-1/4 md:w-1/5 h-auto" />
     </div>
 
     {/* Section 2 content */}
@@ -162,23 +162,23 @@ export default function Home() {
       <div className="flex flex-col gap-4 md:gap-6">
         {/* Images */}
         <div className="flex flex-row gap-4 sm:gap-6 flex-wrap md:flex-nowrap">
-          <img src="/choose-us-img1.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[362px] h-auto" />
-          <img src="/choose-us-img2.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[281px] h-auto mt-[60px] sm:mt-0" />
+          <Image src="/choose-us-img1.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[362px] h-auto" />
+          <Image src="/choose-us-img2.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[281px] h-auto mt-[60px] sm:mt-0" />
         </div>
 
         <div className="flex flex-row gap-4 sm:gap-6 flex-wrap md:flex-nowrap">
-          <img src="/choose-us-img3.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[244px] h-auto" />
-          <img src="/choose-us-img4.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[221px] h-auto" />
+          <Image src="/choose-us-img3.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[244px] h-auto" />
+          <Image src="/choose-us-img4.svg" alt="food-pic" className="w-full sm:w-1/2 md:w-[221px] h-auto" />
           <div className="flex flex-col gap-4 sm:gap-6">
-            <img src="/choose-us-img5.svg" alt="food-pic" className="w-[161px] h-[168px]" />
-            <img src="/choose-us-img6.svg" alt="food-pic" className="w-[161px] h-[166px]" />
+            <Image src="/choose-us-img5.svg" alt="food-pic" className="w-[161px] h-[168px]" />
+            <Image src="/choose-us-img6.svg" alt="food-pic" className="w-[161px] h-[166px]" />
           </div>
         </div>
       </div>
 
       {/* Content div */}
       <div className="w-full sm:w-[400px] h-fit md:w-[562px] lg:w-[600px] flex flex-col text-white">
-        <img src="/ch.svg" className="h-10" alt="ch-logo" />
+        <Image src="/ch.svg" className="h-10" alt="ch-logo" />
         <h1 className="logo mb-4 text-4xl md:text-5xl lg:text-5xl mt-4 text-white font-bold">
           <span className="text-[#FF9F0D]">Ex</span>tra ordinary taste And Experienced
         </h1>
@@ -191,21 +191,21 @@ export default function Home() {
         <div className="flex gap-4 sm:gap-6 md:gap-8">
           <div className="bg-[#FF9F0D] w-[102px] h-[100px] p-4 rounded-lg">
             <div className="flex flex-col items-center">
-              <img src="/Hamburger.png" className="h-[56px] w-[56px]" />
+              <Image src="/Hamburger.png" alt="Hamburger pic" className="h-[56px] w-[56px]" />
               <p className="mt-10">Fast Food</p>
             </div>
           </div>
 
           <div className="bg-[#FF9F0D] w-[102px] h-[100px] p-4 rounded-lg">
             <div className="flex flex-col items-center">
-              <img src="/Cookie.svg" className="h-[56px] w-[56px]" />
+              <Image src="/Cookie.svg" alt="Cookie pic" className="h-[56px] w-[56px]" />
               <p className="mt-10">Dinner</p>
             </div>
           </div>
 
           <div className="bg-[#FF9F0D] w-[102px] h-[100px] p-4 rounded-lg">
             <div className="flex flex-col items-center">
-              <img src="/Wine.svg" className="h-[56px] w-[56px]" />
+              <Image src="/Wine.svg" alt="Wine pic" className="h-[56px] w-[56px]" />
               <p className="mt-10">Lunch</p>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function Home() {
        {/* ----------------    Section - 5 ------------------ */}
        <div className="w-full h-[1700px] lg:h-[900px] bg-black bg-opacity-97 p-4 mr-5">  
        <div className="flex flex-col items-center">
-<img src="/Choose & pick.svg" className="h-10 mt-16"/>
+<Image src="/Choose & pick.svg" alt="-" className="h-10 mt-16"/>
                
                <h1 className="logo mb-16 text-5xl mt-4  text-white font-bold"><span className="text-[#FF9F0D]">Fr</span>om Our Menu</h1>
         </div>
@@ -278,11 +278,12 @@ export default function Home() {
 <div className="flex flex-row gap-2 lg:gap-16 justify-center">
         <div className="pt-[10px] ml-[20px] relative flex flex-row items-center lg:mt-16">     {/* left div*/}
   {/* Background Image */}
-  <img src="/sec5-imgbg.png" className="lg:h-[406px] h-[200px] w-[200px] lg:w-[515px] mt-[-40px]" />
+  <Image src="/sec5-imgbg.png" alt="bg" className="lg:h-[406px] h-[200px] w-[200px] lg:w-[515px] mt-[-40px]" />
   
   {/* Front Image */}
-  <img 
+  <Image 
     src="/sec5-imgfront.svg" 
+    alt="heading"
     className="absolute h-[366px] w-[362px]" 
     style={{ top: "50%", transform: "translateY(-50%)" }} 
   />
@@ -290,7 +291,7 @@ export default function Home() {
 <div className="flex flex-col lg:flex-row gap-2 ml-[-100px] mt-[80px] lg:gap-8 flex-wrap">     {/*right div*/}
 <div className="flex flex-col gap-8"> {/*col 1 div*/}
 <div className="flex flex-row gap-2">     {/*food 1 div*/}
-  <img src="/unsplash_OFismyezPnY.svg" width={80} height={70}/>
+  <Image src="/unsplash_OFismyezPnY.svg" alt="Lettuce Leaf" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Lettuce Leaf</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -298,15 +299,15 @@ export default function Home() {
   </div>
 </div>    {/*food 3 close*/}
 <div className="flex flex-row gap-2">     {/*food 3 div*/}
-  <img src="/unsplash_-GFCYhoRe48.svg" width={80} height={70}/>
+  <Image src="/unsplash_-GFCYhoRe48.svg" alt="food pic" width={80} height={70}/>
   <div className="flex flex-col">
-  <p className=" text-white"><b>Fresh Breakfas</b></p>
+  <p className=" text-white"><b>Fresh Breakfast</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
   <p className="text-lg text-[#FF9F0D]">14.5$</p>
   </div>
 </div>    {/*food 3 close*/}
 <div className="flex flex-row gap-2">     {/*food 3 div*/}
-  <img src="/unsplash_Yr4n8O_3UPc.svg" width={80} height={70}/>
+  <Image src="/unsplash_Yr4n8O_3UPc.svg" alt="Milk Butter" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Milk Butter</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -314,7 +315,7 @@ export default function Home() {
   </div>
 </div>    {/*food 4 close*/}
 <div className="flex flex-row gap-2">     {/*food 4 div*/}
-  <img src="/unsplash_W9OKrxBqiZA.svg" width={80} height={70}/>
+  <Image src="/unsplash_W9OKrxBqiZA.svg" alt="Fresh Bread" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Fresh Bread</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -327,7 +328,7 @@ export default function Home() {
 {/* //---------------------- */}
 <div className="flex flex-col gap-8"> {/*col 2 div*/}
 <div className="flex flex-row gap-2">     {/*food 5 div*/}
-  <img src="/unsplash_ZqREbckCRQA.svg" width={80} height={70}/>
+  <Image src="/unsplash_ZqREbckCRQA.svg" alt="food 5" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Glow Cheese</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -335,7 +336,7 @@ export default function Home() {
   </div>
 </div>    {/*food 5 close*/}
 <div className="flex flex-row gap-2">     {/*food 6 div*/}
-  <img src="/unsplash_cLpdEA23Z44.svg" width={80} height={70}/>
+  <Image src="/unsplash_cLpdEA23Z44.svg" alt="food 6" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Italian Pizza</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -343,7 +344,7 @@ export default function Home() {
   </div>
 </div>    {/*food 6 close*/}
 <div className="flex flex-row gap-2">     {/*food 7 div*/}
-  <img src="/unsplash_mAQZ3X_8_l0.svg" width={80} height={70}/>
+  <Image src="/unsplash_mAQZ3X_8_l0.svg" alt="food 7" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Slice Beef</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -351,7 +352,7 @@ export default function Home() {
   </div>
 </div>    {/*food 7 close*/}
 <div className="flex flex-row gap-2">     {/*food 8 div*/}
-  <img src="/unsplash_dphM2U1xq0U.svg" width={80} height={70}/>
+  <Image src="/unsplash_dphM2U1xq0U.svg" alt="food 8" width={80} height={70}/>
   <div className="flex flex-col">
   <p className=" text-white"><b>Mushroom Pizza</b></p>
   <p className="text-sm text-white">Lacus nisi, et ac dapibus velit in consequat.</p>
@@ -377,17 +378,17 @@ export default function Home() {
     ></div>
 
     {/* Header content */}
-    <img src="/Chefs.svg" className="h-10" alt="Chefs logo" />
+    <Image src="/Chefs.svg" className="h-10" alt="Chefs logo" />
     <h1 className="logo mb-4 text-4xl lg:text-5xl mt-4 text-white font-bold">
       <span className="text-[#FF9F0D]">Me</span>et Our Chef
     </h1>
 
     {/* Chef Cards */}
     <div className="flex flex-col md:flex-row flex-wrap justify-center gap-6 mt-10 lg:mt-20">
-      <img src="/Chef card.svg" alt="Chef 1" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
-      <img src="/Card 2.svg" alt="Chef 2" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
-      <img src="/Card 3.svg" alt="Chef 3" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
-      <img src="/Card 2.svg" alt="Chef 4" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
+      <Image src="/Chef card.svg" alt="Chef 1" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
+      <Image src="/Card 2.svg" alt="Chef 2" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
+      <Image src="/Card 3.svg" alt="Chef 3" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
+      <Image src="/Card 2.svg" alt="Chef 4" className="w-full md:w-1/2 lg:w-1/5 h-auto" />
     </div>
 
     {/* Button */}
@@ -404,7 +405,7 @@ export default function Home() {
 <div className="w-full lg:h-[920px] bg-black bg-opacity-97 p-4">
   {/* Header Section */}
   <div className="relative flex flex-col lg:ml-40 lg:w-[770px] text-center lg:text-left">
-  <img src="/Group 1000002250.svg" className="lg:ml-[-320px]  h-10"/>
+  <Image src="/Group 1000002250.svg" alt="heading" className="lg:ml-[-320px]  h-10"/>
     <h1 className="logo mb-4 text-3xl lg:text-5xl mt-4 text-white font-bold">
       <span className="text-[#FF9F0D]">Wh</span>at our client are saying
     </h1>
@@ -413,11 +414,12 @@ export default function Home() {
   {/* Review Div */}
   <div className="w-full lg:w-[868px] md:w-[500px] lg:h-[461px] bg-white flex flex-col items-center justify-center mt-16 lg:mt-36 mx-auto shadow-lg shadow-gray-500/40 p-6 lg:p-10">
     {/* Client Image */}
-    <img
+    <Image
       src="Ellipse 6.svg"
+      alt="pfp"
       className="w-28 h-28 lg:w-auto lg:h-auto rounded-full mt-[-80px] lg:mt-[-120px] mb-8"
     />
-    <img src="Quotes.svg" className="w-8 lg:w-auto" />
+    <Image src="Quotes.svg" alt="quotes pic" className="w-8 lg:w-auto" />
     {/* Review Text */}
     <p className="text-sm lg:text-base text-center mt-8 mb-10 px-2 lg:px-10 leading-6">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias
@@ -427,7 +429,7 @@ export default function Home() {
       enim sequi nostrum.
     </p>
     {/* Rating */}
-    <img src="star.svg" className="w-32 lg:w-auto" />
+    <Image src="star.svg" alt="Ratings pic" className="w-32 lg:w-auto" />
     {/* Client Name */}
     <p className="mt-6 mb-2 font-arial text-xl lg:text-3xl font-bold text-center">
       Alamin Hassan
@@ -445,7 +447,7 @@ export default function Home() {
        {/* ----------------    Section - 9 ------------------ */}
        <div className="pt-10 w-full h-[1750px] md:h-fit bg-black bg-opacity-97 px-4 lg:pr-5">
   <div className="flex flex-col items-center  w-full lg:w-[770px] mx-auto">
-    <img src="/Blog Post.svg" className="h-8 sm:h-10" alt="Blog Icon" />
+    <Image src="/Blog Post.svg" className="h-8 sm:h-10" alt="Blog Icon" />
     <h1 className="logo mb-6 sm:mb-10 text-3xl sm:text-4xl lg:text-5xl mt-4 text-white font-bold text-center">
       <span className="text-[#FF9F0D]">La</span>test News & Blogs
     </h1>
@@ -453,7 +455,7 @@ export default function Home() {
     <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-4">
       {/* Card 1 */}
       <div className="border-2 border-white bg-transparent w-full sm:w-[300px] md:w-[360px] lg:w-[423px] h-[480px] md:h-[569px]">
-        <img src="/Image Placeholder.svg" className="w-full" alt="Blog 1" />
+        <Image src="/Image Placeholder.svg" className="w-full" alt="Blog 1" />
         <div className="p-4">
           <p className="text-[#FF9F0D] mt-4 text-sm sm:text-base">10 February 2022</p>
           <p className="text-white text-lg sm:text-xl lg:text-2xl mt-2 font-bold">
@@ -464,7 +466,7 @@ export default function Home() {
       </div>
       {/* Card 2 */}
       <div className="border-2 border-white bg-transparent w-full sm:w-[300px] md:w-[360px] lg:w-[423px] h-[480px] md:h-[569px]">
-        <img src="/Image Placeholder (1).svg" className="w-full" alt="Blog 2" />
+        <Image src="/Image Placeholder (1).svg" className="w-full" alt="Blog 2" />
         <div className="p-4">
           <p className="text-[#FF9F0D] mt-4 text-sm sm:text-base">10 February 2022</p>
           <p className="text-white text-lg sm:text-xl lg:text-2xl mt-2 font-bold">
@@ -475,7 +477,7 @@ export default function Home() {
       </div>
       {/* Card 3 */}
       <div className="border-2 border-white bg-transparent w-full sm:w-[300px] md:w-[360px] lg:w-[423px] h-[480px] md:h-[569px]">
-        <img src="/Image Placeholder (2).svg" className="w-full" alt="Blog 3" />
+        <Image src="/Image Placeholder (2).svg" className="w-full" alt="Blog 3" />
         <div className="p-4">
           <p className="text-[#FF9F0D] mt-4 text-sm sm:text-base">10 February 2022</p>
           <p className="text-white text-lg sm:text-xl lg:text-2xl mt-2 font-bold">
